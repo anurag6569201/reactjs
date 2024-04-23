@@ -1,0 +1,15 @@
+h1{
+    font-weight: 700;
+    color:  rgb(206, 83, 83)!important;
+    padding: .5em;
+    text-align: center;
+}
+input{
+    width: 100%;
+}
+button{
+    width: 100%;
+}
+.items{
+    margin: 10px;
+}
