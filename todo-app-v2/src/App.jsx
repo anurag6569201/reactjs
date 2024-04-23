@@ -1,7 +1,7 @@
 import AppName from "./components/AppName";
 import AddTodo from "./components/AddTodo";
 import "./App.css";
-import Todoitemslist from "./components/TodoItemslist";
+import TodoItemsList from "./components/TodoItemslist";
 
 function App(){
   const items=[
@@ -21,7 +21,7 @@ function App(){
     <AppName></AppName>
     <div className="container">
       <AddTodo></AddTodo>
-      <Todoitemslist Todoitemslist={items}></Todoitemslist>
+      <TodoItemsList listelement={items}></TodoItemsList>
     </div>
   </div>
 }

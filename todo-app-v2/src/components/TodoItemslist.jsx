@@ -1,11 +1,13 @@
 import TodoItem from "./TodoItem";
-function Todoitemslist({items}){
+
+let TodoItemsList = ({ listelement }) => {
     return (
-        <div className="container">
-            {Todoitemslist.map((item)=>(
-                <TodoItem todoName={item.name} todoDate={item.duedate}></TodoItem>
+        <>
+            {listelement.map((item, index) => (
+                <TodoItem key={index} todoName={item.name} todoDate={item.duedate}></TodoItem>
             ))}
-        </div>
+        </>
     );
-}
-export default Todoitemslist;
+};
+
+export default TodoItemsList;
