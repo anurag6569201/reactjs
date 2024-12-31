@@ -12,7 +12,9 @@
   "dependencies": {
     "@truffle/contract": "^4.6.31",
     "bootstrap": "^5.3.3",
-    "chai": "^5.1.2",
+    "chai": "^4.5.0",
+    "chai-as-promised": "^8.0.1",
+    "chai-bignumber": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "solc": "^0.8.28",
